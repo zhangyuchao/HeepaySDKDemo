@@ -4,13 +4,13 @@ Pod::Spec.new do |s|
 
 
   s.name         = "JNetSDK"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "汇付宝,让移动支付更简单快捷."
   s.homepage     = "https://github.com/zhangyuchao/HeepaySDKDemo.git"
   s.license      = "MIT"
   s.author             = { "zhangyuchao" => "zhangyuchaofight@163.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/zhangyuchao/HeepaySDKDemo.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/zhangyuchao/HeepaySDKDemo.git", :tag => "1.0.1" }
   s.requires_arc = true
 
   s.default_subspec = "Core", "Wx", "Alipay"
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Wx' do |wx|
     wx.frameworks = 'CoreTelephony'
-    wx.vendored_libraries = 'HeepaySDKDemo/SDKs/Librarys/WXSDK/libWeChatSDK.a', 'HeepaySDKDemo/HeepaySDK/Librarys/WXSDK/*.a'
+    wx.vendored_libraries = 'HeepaySDKDemo/SDKs/Librarys/WXSDK/libWeChatSDK.a', 'HeepaySDKDemo/SDKs/Librarys/WXSDK/*.a'
     wx.source_files = 'HeepaySDKDemo/SDKs/Librarys/WXSDK/*.h'
     wx.ios.library = 'sqlite3.0'
     wx.dependency 'JNetSDK/Core'
