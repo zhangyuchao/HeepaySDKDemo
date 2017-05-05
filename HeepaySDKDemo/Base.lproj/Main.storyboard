@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="ViewController" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayN-db-Bnf">
+                                <rect key="frame" x="37" y="109" width="300" height="44"/>
+                                <color key="backgroundColor" red="0.0039215686269999999" green="0.66666666669999997" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="gqX-dg-nEM"/>
+                                </constraints>
+                                <state key="normal" title="骏卡">
+                                    <color key="titleColor" red="0.99119752645492554" green="0.99631768465042114" blue="0.99601644277572632" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClickButtonWithType:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z2r-Wz-rhR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljl-tf-NIs">
+                                <rect key="frame" x="37" y="161" width="300" height="44"/>
+                                <color key="backgroundColor" red="0.0039215686269999999" green="0.66666666669999997" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="UTT-5e-okX"/>
+                                </constraints>
+                                <state key="normal" title="快捷支付">
+                                    <color key="titleColor" red="0.99119752645492554" green="0.99631768465042114" blue="0.99601644277572632" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClickButtonWithType:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7e7-1U-lp4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0e-wW-kp3">
+                                <rect key="frame" x="37" y="213" width="300" height="44"/>
+                                <color key="backgroundColor" red="0.0039215686269999999" green="0.66666666669999997" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="GTl-oc-Ga6"/>
+                                </constraints>
+                                <state key="normal" title="电话卡支付">
+                                    <color key="titleColor" red="0.99119752645492554" green="0.99631768465042114" blue="0.99601644277572632" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClickButtonWithType:" destination="BYZ-38-t0r" eventType="touchUpInside" id="460-Z8-BQl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="giB-Wp-eMF">
+                                <rect key="frame" x="37" y="265" width="300" height="44"/>
+                                <color key="backgroundColor" red="0.0039215686269999999" green="0.66666666669999997" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="kVB-JB-nkg"/>
+                                </constraints>
+                                <state key="normal" title="微信支付">
+                                    <color key="titleColor" red="0.99119752645492554" green="0.99631768465042114" blue="0.99601644277572632" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClickButtonWithType:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HCz-gz-16Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YND-We-SZb">
+                                <rect key="frame" x="37" y="317" width="300" height="44"/>
+                                <color key="backgroundColor" red="0.0039215686269999999" green="0.66666666669999997" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="vzU-2k-gsH"/>
+                                </constraints>
+                                <state key="normal" title="支付宝支付">
+                                    <color key="titleColor" red="0.99119752645492554" green="0.99631768465042114" blue="0.99601644277572632" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClickButtonWithType:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sZY-be-7Wx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="40" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHE-h2-Woz">
+                                <rect key="frame" x="37" y="369" width="300" height="44"/>
+                                <color key="backgroundColor" red="0.0039215686269999999" green="0.66666666669999997" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="b72-5X-eiy"/>
+                                </constraints>
+                                <state key="normal" title="游戏卡支付">
+                                    <color key="titleColor" red="0.99119752645492554" green="0.99631768465042114" blue="0.99601644277572632" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClickButtonWithType:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qng-Qk-Wal"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3" borderStyle="roundedRect" placeholder="输入支付金额" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V2E-8r-8gL">
+                                <rect key="frame" x="37" y="39" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="FRi-GC-YnY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="ayN-db-Bnf" secondAttribute="trailing" constant="22" id="2JX-qI-Wc6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YND-We-SZb" secondAttribute="trailing" constant="22" id="3Ug-No-R58"/>
+                            <constraint firstItem="aHE-h2-Woz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="53M-Mm-8Mo"/>
+                            <constraint firstItem="ljl-tf-NIs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="6J9-4n-K0U"/>
+                            <constraint firstItem="YND-We-SZb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="C7m-x4-ekW"/>
+                            <constraint firstItem="ayN-db-Bnf" firstAttribute="top" secondItem="V2E-8r-8gL" secondAttribute="bottom" constant="40" id="E0v-kT-gsd"/>
+                            <constraint firstItem="ljl-tf-NIs" firstAttribute="top" secondItem="ayN-db-Bnf" secondAttribute="bottom" constant="8" id="Iab-sX-vG0"/>
+                            <constraint firstItem="V2E-8r-8gL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="MrD-FM-3eY"/>
+                            <constraint firstItem="t0e-wW-kp3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="Nr6-OY-R47"/>
+                            <constraint firstItem="aHE-h2-Woz" firstAttribute="top" secondItem="YND-We-SZb" secondAttribute="bottom" constant="8" id="a6j-TH-Xut"/>
+                            <constraint firstItem="YND-We-SZb" firstAttribute="top" secondItem="giB-Wp-eMF" secondAttribute="bottom" constant="8" id="aA8-o6-4KT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="giB-Wp-eMF" secondAttribute="trailing" constant="22" id="b6t-vh-cdB"/>
+                            <constraint firstItem="ayN-db-Bnf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="bR6-0e-lyp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aHE-h2-Woz" secondAttribute="trailing" constant="22" id="bsZ-or-Lzx"/>
+                            <constraint firstItem="V2E-8r-8gL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="c2M-uI-nEY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ljl-tf-NIs" secondAttribute="trailing" constant="22" id="cyg-lt-tKJ"/>
+                            <constraint firstItem="giB-Wp-eMF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="eFl-GW-JDB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="V2E-8r-8gL" secondAttribute="trailing" constant="22" id="oIR-Fj-Ze3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="t0e-wW-kp3" secondAttribute="trailing" constant="22" id="weS-7V-Dhi"/>
+                            <constraint firstItem="giB-Wp-eMF" firstAttribute="top" secondItem="t0e-wW-kp3" secondAttribute="bottom" constant="8" id="xGQ-u9-huJ"/>
+                            <constraint firstItem="t0e-wW-kp3" firstAttribute="top" secondItem="ljl-tf-NIs" secondAttribute="bottom" constant="8" id="zr3-AS-CYF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="feeTF" destination="V2E-8r-8gL" id="g14-tl-zro"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="438" y="156"/>
+        </scene>
+    </scenes>
+</document>
