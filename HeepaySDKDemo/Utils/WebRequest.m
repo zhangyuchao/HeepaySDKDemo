@@ -17,17 +17,13 @@
 
 //#warning 这里填写商户号与商户秘钥
 //测试号1
-//#define  kSignKey           @"87FB9444028A4B14937A1905" // 密钥
-//#define  kAgentId           @"1664502" // 商户号
-//
-//测试号2：
+#define  kSignKey           @"87FB9444028A4B14937A1905" // 密钥
+#define  kSDKAgentId           @"1664502" // 商户号
 
-#define  kSignKey              @"B3AD032C10AC4AEF9D2A382D" // 密钥
-#define  kSDKAgentId           @"1959138" // 商户号
 
 //H5ceshihao
-#define KH5AgnetId             @"1994367" // 1959138
-NSString * agentKey = @"3CA4BD84029D4191BEB14A0A"; //B3AD032C10AC4AEF9D2A382D
+#define KH5AgnetId             @"1664502" 
+NSString * agentKey = @"87FB9444028A4B14937A1905";
 
 NSString * baseURL = @"https://pay.heepay.com/Payment/Index.aspx";
 
